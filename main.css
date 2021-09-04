@@ -1,83 +1,19 @@
-
-.navbar{
-    background-color: black;
-}
-.hr{
-    width: 50%;
-    background-color: teal;
-    height: 5px;
-    margin: auto;
-    border-radius: 50%;
-
-}
-.hr1{
-    width: 40%;
-    background-color: white ;
-    margin-bottom: 10px;
-    
-    height: 5px;
-    margin: auto;
-    border-radius: 50%;
-}
-h4.navbar-brand{
-    font-family: 'Lobster', cursive;
-    color: rgb(238, 192, 9);
-}
-
 h1{
-    
-    color: rgb(238, 192, 9);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
 }
-.navbar a{
-    color: white;
-    font-weight: 400;
-    transition: all 0.5s;
-margin: 0px 10px;
-}
+h5{
+    text-align: center;
+}    
 
-.navbar a:hover
-{
-    background-color: gold;
-    color: white;
-    border-radius: 20px;
-}
-.ropdown-menu .dropdown-item{
-    color: black;
-}
-button.navbar-toggler.collapsed{
-    color: goldenrod !important;
-}
-
-
-.layout{
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0, 0, 0,0.5) ;
-}
 body{
-    height: 2000px;
-    background-color: black;
-    color: white;
-}
-img{
-    width: 100%;
-}
-li{
-    color: goldenrod;
-}
-#gallary .nav-tabs{
-    background-color: black;
-    color: white;
-    margin: 20px auto;
-    width: 50%;
-    border-radius: 20px;
-}
-@media(max-width :750px){
-    .home{
-        background-size:cover ;
-    }
+    background-color: #111; 
+   }
+    .card{
+       background-color:  #333;
+       color: rgb(255, 255, 255);
 
-}
-html{
-    scroll-behavior: smooth;
+
 }
